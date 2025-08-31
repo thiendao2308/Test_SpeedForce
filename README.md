@@ -3,8 +3,8 @@
 **AI-Powered YouTube Video Analysis Platform**  
 _Built for SpeedForce Technical Assessment_
 
-[![Demo](https://img.shields.io/badge/Live%20Demo-Available-brightgreen?style=for-the-badge)](http://localhost:3000)
-[![API Status](https://img.shields.io/badge/API-Healthy-green?style=for-the-badge)](http://localhost:3000/health)
+[![Demo](https://img.shields.io/badge/Live%20Demo-Available-brightgreen?style=for-the-badge)](https://youtube-analysis-service.onrender.com)
+[![API Status](https://img.shields.io/badge/API-Healthy-green?style=for-the-badge)](https://youtube-analysis-service.onrender.com/health)
 
 </div>
 
