@@ -24,8 +24,8 @@ WORKDIR /app
 # Copy package files
 COPY package*.json ./
 
-# Install dependencies
-RUN npm ci --only=production
+# Install dependencies with optimizations
+RUN npm ci --only=production --no-audit --no-fund --prefer-offline
 
 # Copy source code
 COPY . .
