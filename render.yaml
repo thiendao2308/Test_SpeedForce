@@ -3,7 +3,11 @@ services:
     name: youtube-analysis-service
     env: node
     plan: free
-    buildCommand: npm install
+    buildCommand: |
+      npm config set registry https://registry.npmjs.org/
+      npm config set optional false
+      npm config set audit false
+      npm ci --production --no-optional --no-audit --prefer-offline
     startCommand: npm start
     envVars:
       - key: NODE_ENV

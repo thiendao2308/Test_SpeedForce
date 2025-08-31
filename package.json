@@ -34,6 +34,15 @@
     "uuid": "^9.0.1",
     "winston": "^3.11.0"
   },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "setup-db": "node scripts/setup-db.js",
+    "docker:build": "docker build -t youtube-analysis-service .",
+    "docker:run": "docker run -p 8080:8080 youtube-analysis-service",
+    "postinstall": "echo 'Build completed successfully!'"
+  },
   "devDependencies": {
     "nodemon": "^3.0.1",
     "jest": "^29.7.0"
